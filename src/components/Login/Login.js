@@ -8,6 +8,7 @@ function Login() {
             <header>
                 <div className="headd"><img src="img/vlomger-logo.svg" alt="img" className="logos" />
                 </div>
+                
             </header>
 
             <div className="container">
