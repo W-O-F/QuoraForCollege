@@ -7,6 +7,7 @@ import logo from './images/vlomger-logo.svg'
 import PageTwo from "./PageTwo";
 import PageThree from "./PageThree";
 import PageFour from "./PageFour";
+import { Link, BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 $(document).ready(function () {
     $("#pagepiling").pagepiling({
@@ -48,8 +49,8 @@ export default function HomeScreen() {
                 <img src={logo} alt="" srcset="" className="logo-img"/>
             </div>
             <div className="start-btn-div">
-                <button className="start-btn login-btn-home">Login</button>
-                <button className="start-btn btn">Create Account</button>
+                <Link to="/login"><button className="start-btn login-btn-home">Login</button></Link>
+                <Link to="/signup"><button className="start-btn btn">Create Account</button></Link>
             </div>
         </div>
         <div className="Homescreen">
