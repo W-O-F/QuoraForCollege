@@ -1,16 +1,190 @@
+button:active{
+  background-color: rgb(42, 101, 230);;
+}
 .Homescreen {
   font-family: sans-serif;
   text-align: center;
 }
 .divone {
-  background-color: aqua;
+  background-color: rgb(255, 255, 255);
+  
 }
 .divtwo {
-  background-color: bisque;
+ background-color: white;
 }
 .divthree {
-  background-color: purple;
+  background-color: white;
 }
 .divfour {
-  background-color: greenyellow;
+   background: url(./images/wave-haikei.svg) no-repeat;
+  background-size: cover;
+}
+
+/* pgone css */
+.pg-one-container{
+  text-align: center;
+ 
+}
+.fp-text{
+    margin-top: 2rem;
+    text-align: center;
+}
+.bigtext{
+  font-size: 2.5rem;
+    align-content: center;
+    color: black;
+    padding:auto;
+    letter-spacing: -0.05em;
+    line-height: 1.375;
+    font-weight: 700;
+    text-align: center;
+}
+.small-text{
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  color:grey;
+}
+.start-free{
+  height: 3rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+.pg-one-features{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+.feature-img{
+  height: 8rem;
+  margin-bottom: 0.5rem;
+}
+.feature-text{
+  font-weight: 600;
+  color: rgb(56, 56, 56);
+}
+.header{
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  display: flex;
+  justify-content:space-between
+  ;
+}
+.logo-img{
+  height: 3rem;
+  margin:0.5rem;
+}
+.start-btn-div{
+  display: flex;
+}
+.start-btn{
+  width:9rem;
+  margin: 1rem;
+  height: 2.2rem;
+  border-radius: 0.3rem;
+}
+.login-btn-home{
+  background-color: white;
+  color:rgb(79, 134, 252);
+  border: 1px solid rgb(79, 134, 252);
+  box-shadow: 1px 1px 10px 1px rgb(211, 232, 245);
+}
+.login-btn-home:active{
+  color:white;
+}
+.header{
+  border-bottom: 1px solid rgb(208, 208, 255);
+  box-shadow: 1px 0px 3px 1px rgb(218, 218, 218);
+}
+ /* page two */
+.page-two-container{
+  display: flex;
+  text-align: left;
+  justify-content: space-around;
+}
+.why-need1{
+  font-size: 1.3rem;
+  font-weight: 600;
+  color:blue;
+  margin-bottom: 1rem;
+}
+.why-need2{
+  margin-top: 2rem;
+}
+.answer-to-why{
+  font-weight: 600;
+  font-size: 1.7rem;
+}
+.pg-two-img{
+  height: 30rem;
+}
+.left-front{
+  margin-top: 2rem;
+  max-width: 25rem;
+}
+
+/* page three */
+.pg-3-container-up, .pg-3-container-down{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+.pg-3-container-up{
+  margin-top: 5rem;
+}
+.midleft{
+  max-width: 25rem;
+}
+.img-up{
+  height: 15rem;
+}
+.img-down{
+  height: 15rem;
+}
+.pg-3-container-down{
+  background-color: rgb(219, 219, 219);
+  padding: 2.5rem 0 1.7rem 0;
+}
+.midhead{
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.midfoot{
+  margin-bottom: 0.5rem;
+}
+.visit-clg-page{
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.4rem;
+}
+/* foot */
+.up-foot{
+  margin-top: 5rem;
+}
+.upfoot-big{
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.upfoot-small{
+  font-size: 1.2rem;
+  color: rgb(82, 81, 81);
+  margin-bottom: 4rem;
+}
+.btn-foot{
+  margin-bottom: 10rem;
+}
+.fab{
+  color:rgb(230, 230, 230);
+  font-size: 3rem;
+  margin: 1rem;
+  margin-bottom: 6rem;
+}
+.foot-end-text{
+  font-size: 1.2rem;
+  color:white;
+}
+.fab:hover{
+   color:rgb(173, 173, 173) ;
 }

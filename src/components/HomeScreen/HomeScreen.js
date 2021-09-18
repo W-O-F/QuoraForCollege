@@ -2,6 +2,11 @@ import "./Homescreen.css";
 import $ from "jquery";
 import "./jquery.pagepiling.js";
 import "./jquery.pagepiling.css";
+import PageOne from "./PageOne";
+import logo from './images/vlomger-logo.svg'
+import PageTwo from "./PageTwo";
+import PageThree from "./PageThree";
+import PageFour from "./PageFour";
 
 $(document).ready(function () {
     $("#pagepiling").pagepiling({
@@ -37,13 +42,23 @@ $(document).ready(function () {
 
 export default function HomeScreen() {
     return (
-        <div className="Homescreen">
-            <div id="pagepiling">
-                <div class="section divone">Some section</div>
-                <div class="section divtwo">Some section</div>
-                <div class="section divthree">Some section</div>
-                <div class="section divfour">Some section</div>
+        <>
+        <div className="header">
+            <div className="logo">
+                <img src={logo} alt="" srcset="" className="logo-img"/>
+            </div>
+            <div className="start-btn-div">
+                <button className="start-btn login-btn-home">Login</button>
+                <button className="start-btn btn">Create Account</button>
             </div>
         </div>
+        <div className="Homescreen">
+            <div id="pagepiling">
+                <div class="section divone"><PageOne/></div>
+                <div class="section divtwo"><PageTwo/></div>
+                <div class="section divthree"><PageThree/></div>
+                <div class="section divfour"><PageFour/></div>
+            </div>
+        </div></>
     );
 }
